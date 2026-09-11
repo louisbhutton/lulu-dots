@@ -1,0 +1,92 @@
+[manager]
+cwd = { fg = "white" }
+
+hovered = { fg = "black", bg = "white" }
+preview_hovered = { fg = "black", bg = "white" }
+
+find_keyword = { fg = "black", bg = "white", bold = true }
+find_position = { fg = "black", bg = "white", bold = true }
+
+marker_selected = { fg = "white" }
+marker_copied = { fg = "white" }
+marker_cut = { fg = "white" }
+
+tab_active = { fg = "black", bg = "white", bold = true }
+tab_inactive = { fg = "white" }
+
+border_symbol = "│"
+border_style = { fg = "white" }
+
+count_copied = { fg = "white" }
+count_cut = { fg = "white" }
+count_selected = { fg = "white" }
+
+
+[mode]
+normal_main = { fg = "black", bg = "white", bold = true }
+normal_alt = { fg = "white", bg = "black" }
+
+select_main = { fg = "black", bg = "white", bold = true }
+select_alt = { fg = "white", bg = "black" }
+
+unset_main = { fg = "black", bg = "white", bold = true }
+unset_alt = { fg = "white", bg = "black" }
+
+
+[status]
+overall = { fg = "white" }
+
+sep_left = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+perm_type = { fg = "white" }
+perm_read = { fg = "white" }
+perm_write = { fg = "white" }
+perm_exec = { fg = "white" }
+perm_sep = { fg = "white" }
+
+progress_label = { fg = "white", bold = true }
+progress_normal = { fg = "white" }
+progress_error = { fg = "white" }
+
+
+[which]
+cols = 2
+
+mask = { fg = "black", bg = "white" }
+cand = { fg = "white", bold = true }
+rest = { fg = "white" }
+desc = { fg = "white" }
+separator = "  "
+separator_style = { fg = "white" }
+
+
+[confirm]
+border = { fg = "white" }
+title = { fg = "white", bold = true }
+content = { fg = "white" }
+list = { fg = "white" }
+btn_yes = { fg = "black", bg = "white", bold = true }
+btn_no = { fg = "white" }
+
+
+[spot]
+border = { fg = "white" }
+title = { fg = "white", bold = true }
+tbl_col = { fg = "white" }
+tbl_cell = { fg = "white" }
+
+
+[help]
+on = { fg = "white", bold = true }
+run = { fg = "white" }
+desc = { fg = "white" }
+hovered = { fg = "black", bg = "white" }
+footer = { fg = "white" }
+
+
+[input]
+border = { fg = "white" }
+title = { fg = "white", bold = true }
+value = { fg = "white" }
+selected = { fg = "black", bg = "white" }

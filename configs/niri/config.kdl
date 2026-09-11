@@ -1,0 +1,29 @@
+include "./cfg/animation.kdl"
+include "./cfg/autostart.kdl"
+include "./cfg/keybinds.kdl"
+include "./cfg/input.kdl"
+include "./cfg/display.kdl"
+include "./cfg/layout.kdl"
+include "./cfg/rules.kdl"
+include "./cfg/misc.kdl"
+
+gestures {
+    hot-corners {
+        off
+    }
+}
+
+spawn-at-startup "alacritty" "--class" "fastfetch" "-e" "fastfetch"
+
+layer-rule {
+    match namespace="noctalia-bar-.*$"
+
+    background-effect {
+        blur false
+    }
+}
+
+window-rule {
+    match title="cava"
+    opacity 0.85
+}
